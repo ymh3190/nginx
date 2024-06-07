@@ -24,7 +24,7 @@
       - [x] -t -T
       - [x] -s signal
   - [x] Nginx default folder /usr/share/nginx/html
-  - [ ] Docker-compose file - using volumes
-  - [ ] Serving custom pages - index.html
-  - [ ] Building a new Nginx image
-    - [ ] DockerFile
+  - [x] Docker-compose file - using volumes
+  - [x] Serving custom pages - index.html
+  - [x] Building a new Nginx image
+    - [x] DockerFile
