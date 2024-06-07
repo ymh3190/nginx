@@ -1,0 +1,10 @@
+services:
+  nginx:
+    build:
+      context: . # nginx Dockerfile 위치
+    ports:
+      - 8000:80 # cli 환경에서 더 이상 8000:80를 할 필요가 없다
+    volumes:
+      # html foler는 /usr/share/nginx/html 폴더와 연관있음
+      # host:container
+      - ./html/:/usr/share/nginx/html/
